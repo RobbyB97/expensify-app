@@ -2,6 +2,10 @@
 const path = require('path')
 const express = require('express')
 
+
+// env
+const port = process.env.PORT || 3000
+
 // Express config
 const app = express()
 
@@ -14,6 +18,6 @@ app.get('*', (req, res) => {
 
 
 // Run server
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Server is up')
 })
