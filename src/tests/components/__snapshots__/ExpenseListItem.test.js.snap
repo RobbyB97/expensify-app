@@ -7,8 +7,8 @@ exports[`Render ExpenseListItem 1`] = `
   </h6>
   <p>
     20
-     | 
-    0
+    |
+    Dec 31 1969
   </p>
   <Link
     replace={false}
