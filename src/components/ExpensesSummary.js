@@ -11,7 +11,7 @@ export const ExpensesSummary = (props) => (
             props.expensesCount ?
                 `You have ${props.expensesCount} expenses totalling ${props.expensesTotal}.`
             :
-            'You have no expenses.'
+                'You have no expenses.'
         }
     </div>
 )
